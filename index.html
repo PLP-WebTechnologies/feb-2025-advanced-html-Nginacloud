@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My HTML</title>
+    </head>
+    <body>
+        <h1>Welcome To My Assignment</h1>
+        <h3>Introduction to Lists</h3>
+        <h2>The Three Types of Lists</h2>
+        <ol type="I">
+            <li>Ordered Lists</li>
+            <li>Unordered Lists</li>
+            <li>Definition Lists</li>
+        </ol>
+
+        <h3>Setting up images in HTML</h3>
+        <h2>See What You Like?</h2>
+        <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beauty of Code" width="600" height="600">
+
+        <h3>Structured Data</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Adress</th>
+                    <th>MobileNumber</th>
+                    <th>Email</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Georgia Mayor</td>
+                        <td>mtc, Westland</td>
+                        <td>0745234285</td>
+                        <td>gmayor34@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ginny Wambare</td>
+                        <td>Mombasard, HS2</td>
+                        <td>0765349501</td>
+                        <td>ginnypaul@gmai.com</td>
+                    </tr>
+                    <tr>
+                        <td>Kuria Colin</td>
+                        <td>Fortless, Waiyakiway</td>
+                        <td>0799650219</td>
+                        <td>wanjacolin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Evergreen Mumbua</td>
+                        <td>Kinoo, Po box 197-00100</td>
+                        <td>0792163069</td>
+                        <td>mumbua123@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>My Shaylaa</td>
+                        <td>Tiktok Veryway, Off Redhillrd</td>
+                        <td>0720958123</td>
+                        <td>shaylaa@gmail.com</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+
+        <h3>Registration Form</h3>
+        <form action="submit_form.php" method="POST">
+        
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="6">
+            <br><br>
+    
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+    
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Select--</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+            </select>
+            <br><br>
+    
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+    
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+    
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+    
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <br><br>
+    
+            <button type="submit">Register</button>
+    
+        </form>
+    
+    </body>
+    </html>
+    </body>
+</html>
